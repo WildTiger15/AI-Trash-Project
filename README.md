@@ -1,6 +1,6 @@
 # AI Trash Recognition Project
 
-  * The AI Trash Recognition Project aims to leverage machine learning to accurately categorize waste into various categories       such as recyclable, organic, and trash. This project is intended to help improve waste management and recycling processes,      reducing the environmental impact of mismanaged waste.
+The AI Trash Recognition Project aims to leverage machine learning to accurately categorize waste into various categories       such as recyclable, organic, and trash. This project is intended to help improve waste management and recycling processes,      reducing the environmental impact of mismanaged waste.
 
 # Project Goals
 Enhance Recycling Efficiency: Automate the process of sorting waste into correct categories to improve recycling rates.
