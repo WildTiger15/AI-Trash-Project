@@ -31,17 +31,29 @@ Prepare your dataset with images categorized into folders such as recyclable, or
 
 
 dataset/
+
     recyclable/
+    
         image1.jpg
+        
         image2.jpg
+        
         ...
+        
     organic/
+    
         image1.jpg
+        
         image2.jpg
+        
         ...
+        
     trash/
+    
         image1.jpg
+        
         image2.jpg
+        
         ...
 
 
