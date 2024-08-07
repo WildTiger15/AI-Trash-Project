@@ -17,7 +17,7 @@ Libraries
 You can install the required libraries using the following command:
 pip install tensorflow opencv-python numpy matplotlib
 
-# Download Model
+# Download Model: my_model.keras
 import tensorflow as tf
 
 model = tf.keras.models.load_model('my_model.keras')
