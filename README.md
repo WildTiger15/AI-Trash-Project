@@ -22,38 +22,8 @@ import tensorflow as tf
 
 model = tf.keras.models.load_model('my_model.keras')
 
-
-dataset/
-
-    recyclable/
-    
-        image1.jpg
-        
-        image2.jpg
-        
-        ...
-        
-    organic/
-    
-        image1.jpg
-        
-        image2.jpg
-        
-        ...
-        
-    trash/
-    
-        image1.jpg
-        
-        image2.jpg
-        
-        ...
-
-
-
-
 Directions and Code
-Look at model.ipynb for code and copy-paste relevant sections. You can use the OpenCV camera format if preferred.
+ You can use the OpenCV camera format if preferred look at model.ipynb for this
 
 Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. We welcome improvements and new features!
