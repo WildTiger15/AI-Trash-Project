@@ -15,19 +15,12 @@ pip package manager
 Access to a CUDA-compatible GPU for training or Cloud computing services like Azure (I used this)
 Libraries
 You can install the required libraries using the following command:
-
-bash
-Copy code
 pip install tensorflow opencv-python numpy matplotlib
-Clone the Repository
-Clone this repository to your local machine using:
 
-bash
-Copy code
-git clone https://github.com/yourusername/ai-trash-recognition.git
-cd ai-trash-recognition
-Dataset
-Prepare your dataset with images categorized into folders such as recyclable, organic, and trash. Make sure your dataset is structured like this:
+# Download Model
+import tensorflow as tf
+
+model = tf.keras.models.load_model('my_model.keras')
 
 
 dataset/
@@ -57,13 +50,13 @@ dataset/
         ...
 
 
-# Model Training
-To train the model, follow these steps:
-Preprocess the Dataset: Preprocess your dataset to ensure the images are of uniform size and normalized.
-Define the Model: Define your Convolutional Neural Network (CNN) model in TensorFlow.
-Train the Model: Train your model on the dataset.
 
-# Directions and Copy Code
+
+Directions and Code
+Look at model.ipynb for code and copy-paste relevant sections. You can use the OpenCV camera format if preferred.
+
+Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. We welcome improvements and new features!
 Look at model.ipynb for code and copy past relevant sections. You can use the openCV camera format if liked
 
 # Contributing
